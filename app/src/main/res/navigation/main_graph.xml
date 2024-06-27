@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/fragmentInicio">
+
+    <fragment
+        android:id="@+id/fragmentInicio"
+        android:name="com.example.pr_tarea3iglesiascostasroi.viewmodels.FragmentInicio"
+        android:label="Roi`s Supeco"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_fragmentInicio_to_fragment_listado_productos"
+            app:destination="@id/fragment_listado_productos" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentFichaProducto"
+        android:name="com.example.pr_tarea3iglesiascostasroi.viewmodels.FragmentFichaProducto"
+        android:label="FICHA PRODUCTO"
+        tools:layout="@layout/fragment_ficha_producto" />
+    <fragment
+        android:id="@+id/fragmentInsertarProducto"
+        android:name="com.example.pr_tarea3iglesiascostasroi.viewmodels.FragmentInsertarProducto"
+        android:label="INSERTAR PRODUCTO"
+        tools:layout="@layout/fragment_insertar_producto" />
+    <fragment
+        android:id="@+id/fragment_listado_productos"
+        android:name="com.example.pr_tarea3iglesiascostasroi.viewmodels.FragmentListadoProductos"
+        android:label="LISTADO PRODUCTOS"
+        tools:layout="@layout/fragment_listado_productos" >
+        <action
+            android:id="@+id/action_fragment_listado_productos_to_fragmentInsertarProducto"
+            app:destination="@id/fragmentInsertarProducto" />
+        <action
+            android:id="@+id/action_fragment_listado_productos_to_fragmentFichaProducto"
+            app:destination="@id/fragmentFichaProducto" />
+        <action
+            android:id="@+id/action_fragment_listado_productos_to_preferenceFragment"
+            app:destination="@id/preferenceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/preferenceFragment"
+        android:name="com.example.pr_tarea3iglesiascostasroi.viewmodels.PreferenceFragment"
+        android:label="PREFERENCIAS"
+        tools:layout="@layout/fragment_preference" />
+</navigation>

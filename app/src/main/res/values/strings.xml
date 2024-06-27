@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PR_Tarea3IglesiasCostasRoi</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_texto_toolbar">Roi`s Supeco soy el toolbar Inicio</string>
+    <string name="boton_modificar">MODIFICAR</string>
+    <string name="descripcion_imagen">Imagen de producto</string>
+    <string name="tv_disponible">Disponible:</string>
+    <string name="tv_precio">Precio:</string>
+    <string name="tv_nombre_del_producto">Nombre del producto</string>
+    <string name="descripcion_boton_iniciar_aplicacion">Este botón sirve para iniciar la aplicación</string>
+    <string name="cb_disponible">Disponible</string>
+    <string name="et_gramos">Gramos</string>
+    <string name="et_precio">Precio</string>
+    <string name="et_ingredientes">Ingredientes</string>
+    <string name="et_nombre">Nombre</string>
+    <string name="et_url">URL</string>
+    <string name="bt_guardar">Guardar</string>
+    <string name="boton_eliminar">ELIMINAR</string>
+    <string name="bt_texto_añadir">Añadir</string>
+    <string name="ib_boton_configuracion">Settings</string>
+
+</resources>

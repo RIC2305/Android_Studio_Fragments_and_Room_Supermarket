@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="mostrar_productos"
+        android:title="Mostrar Disponibles / Todos"
+        android:defaultValue="false"
+        android:summaryOn="Todos"
+        android:summaryOff="Disponibles"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="?android:attr/textColorPrimary"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart"/>
+
+
+</PreferenceScreen>

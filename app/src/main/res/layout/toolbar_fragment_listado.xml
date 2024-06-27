@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar_fragment_listado"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/md_theme_light_primaryContainer"
+    android:elevation="4dp"
+    android:theme="@style/Base.Theme.PR_Tarea3IglesiasCostasRoi">
+
+    <!-- Botón con icono settings -->
+    <ImageButton
+        android:id="@+id/action_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icons_settings"
+        android:contentDescription="@string/ib_boton_configuracion"
+        android:onClick="onSettingsClick"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:padding="8dp" />
+
+    <!-- Botón "Añadir" con texto -->
+    <Button
+    android:id="@+id/action_add"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/bt_texto_añadir"
+    android:textSize="18sp"
+    android:onClick="onAddClick"/>
+
+
+
+</androidx.appcompat.widget.Toolbar>
+
+
+
+
